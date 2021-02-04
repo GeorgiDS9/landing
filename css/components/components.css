@@ -1,0 +1,88 @@
+/*Banner*/
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.btn-flat {
+  color: white;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+   background: #007965;
+}
+
+/*How it works*/
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.card-white {
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  height: 270px;
+  width: 150px;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.card-white img {
+  width: 150px
+  /*height: 150px;*/
+}
+
+.text-center {
+  text-align: center;
+  margin: 30px 30px;
+}
+
+/*Footer*/
+
+.footer {
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 30px;
+}
+
+.list-inline > li > a {
+  color: #1EDD88;
+}
+
+.fab:hover {
+  background-color: #007965;
+}
